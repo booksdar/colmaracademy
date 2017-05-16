@@ -1,136 +1,267 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href="" rel="stylesheet" type="text/css">
-  <link href="http://maxcdn.bootstrapped.cdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <title>Colmar Academy</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
   <link href="style.css" type="text/css" rel="stylesheet">
 </head>
+
 <!--Body-->
+
 <body>
+
   <!--Header-->
+
   <header>
-    <div class="container">
-      <img src="resources/ic-logo.svg" ALT="logo" ALIGN="left">
-      <h2><strong>COLMAR</strong> ACADEMY</h2>
+     <div class="logo">
+      <img  src="resources/ic-logo.svg" ALT="logo Colmar Academy">
+      <span id="colmar"><strong>COLMAR</strong></span id="academy">&nbsp;ACADEMY</span>
+    </div>
+
       <!--Header Navigation-->
+
       <nav>
         <ul>
           <li><a href="#">On campus</a></li>
           <li><a href="#">Online</a></li>
           <li><a href="#">For companies</a></li>
           <li><a href="#">Sign in</a></li>
+        </ul>
         </nav>
-      </div>
-      <!--Learn something new-->
-      <div class="learn">
-        <div class="container">
-          <img src="resources/banner.jpg" ALT="students studying" ALIGN="left">
+
+      <!--Header--Mobile-->
+
+        <nav class="mobile">
+          <ul>
+            <li><a href="#"></a><img src="resources/ic-logo.svg" ALT="logo Colmar Academy"></li>
+            <li><a href="#"></a><img src="resources/ic-on-campus.svg" ALT="on campus symbol"></li>
+            <li><a href="#"></a><img src="resources/ic-online.svg"  ALT="online symbol"></li>
+            <li><a href="#"></a><img src="resources/ic-login.svg"  ALT="log in symbol"></li>
+          </ul>
+        </nav>
+  </header>
+
+      <!--Banner: Learn something new-->
+
+      <section class="banner">
+      <div class="banner_img">
+          <img src="resources/banner.jpg" ALT="students studying">
+        </div>
+          <div class="banner_content">
           <h1>Learn something new everyday</h1>
           <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-          <nav class="btn-nav"><a href="#">Start here</a></nav>
+          <nav id="btn-nav"><a href="#">Start here</a></nav>
         </div>
-      </div>
-<!--Keep Practicing-->
-<div class="practice">
-  <div class="container">
+      </section>
+
+
+<!--information: Keep Practicing-->
+
+<section class="information">
+  <div class="info_img">
+    <div class="information">
     <img src="resources/information-main.jpg" ALT="man reading" ALIGN="center">
-    <h1>It doesnt hurt to keep practicing</h2>
-      <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula"</h1>
-        <p>Emanuel, Sr Strategist at Hiring.com</p>
+    <div class="info_content">
+    <h3>It doesnt hurt to keep practicing</h3>
+      <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula"</p>
+        <span>Emanuel, Sr Strategist at Hiring.com</span>
   </div>
 </div>
+</section>
+
+
 <!--Orientation-->
-<div class="orientation">
-  <div class="container">
+<section class="sidebar">
+  <div class="sidebar_container"
+  <div class="orientation">
     <img src="resources/information-orientation.jpg" ALT="walking students casting shadows">>
-    <h2>Orientation date</h2>
-    <h3>Tue 10/11 &amp; Wed 10/12 8am-3pm</h3>
+    <div class="text">
+    <h4>Orientation date</h4>
+    <p>Tue 10/11 &amp; Wed 10/12 8am-3pm</p>
     <nav><a href="#">Read more</a></nav>
   </div>
+ </div>
 </div>
+
 <!--Our campus-->
-<div class="campus">
-  <div class="container">
+<div class="sidebar_container">
+  <div class="ourcampus">
     <img src="resources/information-campus.jpg" ALT="students studying at table">
-    <h2>Our campus</h2>
-    <h3>Find which campus is close by you</h3>
+    <div class="text">
+    <h4>Our campus</h4>
+    <p>Find which campus is close by you</p>
     <nav><a href="#">Read more</a></nav>
   </div>
+ </div>
 </div>
+
 <!--Our guest lecture-->
-<div class="lecture">
-  <div class="container">
-    <img src="resources/information-guest-lecture.jpg" ALT="professor">
-    <h2>Our guest lecture</h2>
-    <h3>Join a keynote with Oliver Sack about music in medical treatment</h3>
+<div class="sidebar_container">
+  <div class="guest"
+   <img src="resources/information-guest-lecture.jpg" ALT="guest speaker">
+   <div class="text">
+    <h4>Our guest lecture</h4>
+    <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+    <nav><a href="#">Read more</a></nav>
+   </div>
+  </div>
+ </div>
+
+
+<!--Information for mobile-->
+
+ <div class="sidebar_mobile">
+   <div class="sidebar_container">
+     <div class="orientation">
+   <img src="resources/information-orientation-mobile.jpg" ALT="guest speaker">
+   <div class="text">
+     <h4>Orientation date</h4>
+     <p>Tues 10/11 &amp; Wed 10/12 8am-3pm</p>
+    <nav><a href="#"Read more</a></nav>
+   </div>
+  </div>
+ </div>
+
+<div class="sidebar_container">
+  <div class="information"
+  <img src="resources/information-campus-mobile.jpg" ALT="students studying at table">
+  <div class="text">
+    <h4>Our Campus</h4>
+    <p>Find which campus is close by you</p>
     <nav><a href="#">Read more</a></nav>
   </div>
+ </div>
 </div>
-<!--Courses available-->
-<div class="learning">
-  <div class="container">
-    <div class="software">
+
+<div class="sidebar_container">
+  <div class="guest">
+  <img src="resources/information-guest-lecture-mobile.jpg" ALT="guest speaker">
+  <div class="text">
+    <h4>Special guest lecture</h4>
+    <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+    <nav><a href="#">Read more</a></nav>
+   </div>
+  </div>
+ </div>
+</div>
+</section>
+
+<!--Start learning-->
+<section class="courses">
+  <h5>Start learning</h5>
+<!--Classes-->
+  <div class="software">
+    <div class="container">
       <img src="resources/course-software.jpg" ALT="computer screens">
-      <h2>Software engineering</h2>
-      <h3>COURSES</h3>
+      <div class="text">
+      <h4>Software engineering</h4>
+      <span>COURSES</span>
       <p>Web Development, Mobile Development, iOT, APIs</p>
     </div>
+  </div>
   <!--Computer art-->
   <div class="art">
+    <div class="container">
     <img src="resources/course-computer-art.jpg" ALT="mobile phone screen">
-    <h2>Computer art</h2>
-    <h3>COURSES</h3>
+    <h4>Computer art</h4>
+    <span>COURSES</span>
     <p>Imagining &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
   </div>
+</div>
   <!--Design-->
   <div class="design">
+    <div class="container">
     <img src="resources/course-design.jpg" ALT="torso with camera">
-    <h2>Design</h2>
-    <h3>COURSES</h3>
+    <h4>Design</h4>
+    <span>COURSES</span>
     <p>User Experience Design, User Research, Visual Design</p>
   </div>
+</div>
   <!--Data-->
   <div class="data">
+    <div class="container">
     <img src="resources/course-data.jpg" ALT="open laptop showing graphs">
-    <h2>Data</h2>
-    <h3>COURSES<h3>
+    <h4>Data</h4>
+    <span>COURSES</span>
       <p> Data Science, Big Data, SQL, Data Visualization</p>
     </div>
+  </div>
     <!--Business-->
     <div class="business">
+      <div class="container">
       <img src="resources/course-business.jpg" ALT="chess board">
-      <h2>Business</h2>
-      <h3>COURSES</h3>
+      <h4>Business</h4>
+      <span>COURSES</span>
       <p>Product Development, Business Development, Startup</p>
     </div>
+  </div>
     <!--Marketing-->
     <div class="marketing">
+      <div class="container">
       <img src="resources/course-marketing.jpg" ALT="smart watch close-up">
-      <h2>Marketing</h2>
-      <h3>COURSES</h3>
+      <h4>Marketing</h4>
+      <span>COURSES</span>
       <p> Analytics, Content Marketing, Mobile Marketing</p>
     </div>
   </div>
-</div>
-<!--Thesis exhibit section-->
-<div class="thesis"
-<div class="container">
-  <h1>Thesis exhibit</h1>
-  <!--Video-->
-  <div class="video">
-    <video src="resources/._thesis.mp4" type="video/mp4" ALT="video">Your browser does not support the video.</video>
-    <h2>Reimagine urban</h2>
+
+
+ <!--Courses for Mobile-->
+
+ <div class="courses_mobile">
+   <h4>Software engineering</h4>
+   <h4>Computer art</h4>
+   <h4>Design</h4>
+   <h4>Data</h4>
+   <h4>Business</h4>
+   <h4>Marketing</h4>
+ </div>
+ </section>
+
+<!--Last section Thesis exhibit section with video-->
+
+<section class="thesis">
+  <h3>Thesis exhibit</h3>
+  <div class="thesis_container">
+     <video src="resources/thesis.mp4" type="video/mp4" ALT="video of a building" width="100%" height="auto" preload controls>
+    </video>
+    <h4>Reimagine urban</h4>
     <p>"Curabitur vitae libero in ipsum portitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
   </div>
+
   <!--Fisma: Design-->
-  <div class="fisma">
-    <img src="resources/"
-    
+  <div class="sidebar" id="thesis">
+    <div class="sidebar_container">
+    <img src="resources/thesis-fisma.jpg" ALT="design specs">
+    <div class="text">
+    <h4>Fisma: Design and</h4>
+    <p>Designer showcase of new prototype product</p>
+  </div>
+</div>
+
+  <div class="sidebar_container">
+    <img src="resources/thesis-now-and-then.jpg" ALT="New York buildings">
+    <div class="text">
+    <h4>Now and then</h4>
+    <p>Research study about New York</p>
+  </div>
+ </div>
+</div>
+
+<div class="thesis_mobile">
+  <video src="resources/videos/thesis.mp4" width="100%" height="auto" preload controls>
+  </video>
+</div>
+</section>
 
 
+<!--Footer-->
+<footer>
+  <div class="footer-container">
+    <span>&copy; 2016 Colmar Academy. All rights reserved</span>
+  </div>
+</footer>
 
-
-
-    </header>
 </body>
 </html>
