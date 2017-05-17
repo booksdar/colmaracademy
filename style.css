@@ -411,6 +411,7 @@ margin-bottom: 250px;
 background-color: #c0e2dc;
 padding: 8px;
 }
+
 .courses h3 {
   width: 100%;
   text-align: center;
@@ -550,11 +551,11 @@ border-bottom: 125px solid #c7e2dd;
 }
 
 #fisma p {
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 #nowandthen p {
-  padding-bottom: 58px;
+  padding-bottom: 235px;
 }
 
 #fisma img, #nowandthen img {}
